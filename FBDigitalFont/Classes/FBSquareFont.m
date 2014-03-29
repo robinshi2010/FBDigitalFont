@@ -1021,6 +1021,15 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
                 break;
             }
+		case FBFontSymbolColon:
+		{
+			
+			CGContextAddArc(ctx, startPoint.x+horizontalEdgeLength, startPoint.y+verticalEdgeLength*2/3, 1, 0, 2*PI, 0);
+			CGContextDrawPath(ctx, kCGPathEOFillStroke);//绘制填充
+			CGContextAddArc(ctx, startPoint.x+horizontalEdgeLength, startPoint.y+verticalEdgeLength*4/3, 1, 0, 2*PI, 0);
+			CGContextDrawPath(ctx, kCGPathEOFillStroke);//绘制填充
+			break;
+		}
         default:
             break;
     }

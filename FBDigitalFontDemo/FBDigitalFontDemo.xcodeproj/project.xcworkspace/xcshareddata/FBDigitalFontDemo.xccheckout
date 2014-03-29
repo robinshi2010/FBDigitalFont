@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B53A59BA-F6EA-4653-A6A1-1BD215D819FA</string>
+	<string>6A26563A-B6F3-4104-95A9-1BAF87931FF5</string>
 	<key>IDESourceControlProjectName</key>
 	<string>FBDigitalFontDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>81CF5454-716E-450E-B3D0-2A78E01A1CE5</key>
-		<string>https://github.com/lyokato/FBDigitalFont.git</string>
+		<key>32D67DE4-727A-4A3F-BA88-7C5FC36321E5</key>
+		<string>https://github.com/robinshi2010/FBDigitalFont.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>FBDigitalFontDemo/FBDigitalFontDemo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>81CF5454-716E-450E-B3D0-2A78E01A1CE5</key>
+		<key>32D67DE4-727A-4A3F-BA88-7C5FC36321E5</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/lyokato/FBDigitalFont.git</string>
+	<string>https://github.com/robinshi2010/FBDigitalFont.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>81CF5454-716E-450E-B3D0-2A78E01A1CE5</string>
+	<string>32D67DE4-727A-4A3F-BA88-7C5FC36321E5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>81CF5454-716E-450E-B3D0-2A78E01A1CE5</string>
+			<string>32D67DE4-727A-4A3F-BA88-7C5FC36321E5</string>
 			<key>IDESourceControlWCCName</key>
 			<string>FBDigitalFont</string>
 		</dict>
