@@ -13,11 +13,11 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolDash:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -27,16 +27,16 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbol0:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
                 CGPathCloseSubpath(path);
@@ -51,7 +51,7 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathMoveToPoint(path, NULL,
                                   startPoint.x + horizontalEdgeLength,
                                   startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -62,23 +62,23 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbol2:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -88,28 +88,28 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbol3:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -119,25 +119,25 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbol4:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -147,23 +147,23 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbol5:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -173,23 +173,23 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbol6:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -199,14 +199,14 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbol7:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -216,19 +216,19 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbol8:
         {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
                 CGPathCloseSubpath(path);
@@ -239,11 +239,11 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -253,23 +253,23 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbol9:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -279,16 +279,16 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolA:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -296,11 +296,11 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -310,17 +310,17 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolB:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGPathCloseSubpath(path);
                 CGContextAddPath(ctx, path);
@@ -328,11 +328,11 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -342,17 +342,17 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolC:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -362,19 +362,19 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolD:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 3 / 2,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 3 / 2,
                         startPoint.y);
                 CGPathCloseSubpath(path);
@@ -386,16 +386,16 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolE:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -403,11 +403,11 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -417,13 +417,13 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolF:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -431,10 +431,10 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
                 CGContextAddPath(ctx, path);
@@ -445,22 +445,22 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolG:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength,
                         startPoint.y + verticalEdgeLength);
                 CGContextAddPath(ctx, path);
@@ -471,10 +471,10 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolH:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -482,10 +482,10 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -493,10 +493,10 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
                 CGContextAddPath(ctx, path);
@@ -507,10 +507,10 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolI:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
                 CGContextAddPath(ctx, path);
@@ -518,10 +518,10 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -529,10 +529,10 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -543,10 +543,10 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolJ:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
                 CGContextAddPath(ctx, path);
@@ -555,13 +555,13 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
 
                 path = CGPathCreateMutable();
                 //CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 3 / 2, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 3 / 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 3 / 2,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -573,10 +573,10 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
             {
                 /*
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -584,10 +584,10 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);*/
 
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength);
                 CGPathAddLineToPoint(path, NULL,
@@ -596,7 +596,7 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
                 CGPathRelease(path);
-                
+
                 path = CGPathCreateMutable();
                 CGPathMoveToPoint(path, NULL,
                                   startPoint.x + horizontalEdgeLength * 2,
@@ -615,13 +615,13 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolL:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -632,16 +632,16 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolM:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -649,11 +649,11 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -663,14 +663,14 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolN:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                
-                
+
+
                 CGPathAddLineToPoint(path, NULL,
                                      startPoint.x + horizontalEdgeLength * 2,
                                      startPoint.y + verticalEdgeLength * 2);
@@ -679,10 +679,10 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                                      startPoint.y);
 
                 /*
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                  */
@@ -694,16 +694,16 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolO:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGPathCloseSubpath(path);
@@ -715,19 +715,19 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolP:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
                 CGPathCloseSubpath(path);
@@ -739,16 +739,16 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolQ:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGPathCloseSubpath(path);
@@ -757,10 +757,10 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -797,19 +797,19 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
                 /*
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -817,10 +817,10 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -832,22 +832,22 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolS:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
@@ -858,10 +858,10 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolT:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathMoveToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
                 CGContextAddPath(ctx, path);
@@ -869,11 +869,11 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -883,16 +883,16 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolU:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
                 CGContextAddPath(ctx, path);
@@ -903,13 +903,13 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolV:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
                 CGContextAddPath(ctx, path);
@@ -920,16 +920,16 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolW:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
+                CGPathAddLineToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
                 CGContextAddPath(ctx, path);
@@ -937,11 +937,11 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -951,22 +951,22 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolX:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -976,25 +976,25 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolY:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
                 CGPathRelease(path);
 
                 path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x + horizontalEdgeLength,
                         startPoint.y + verticalEdgeLength);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -1004,17 +1004,17 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
         case FBFontSymbolZ:
             {
                 CGMutablePathRef path = CGPathCreateMutable();
-                CGPathMoveToPoint(path, NULL, 
+                CGPathMoveToPoint(path, NULL,
                         startPoint.x,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x,
                         startPoint.y + verticalEdgeLength * 2);
-                CGPathAddLineToPoint(path, NULL, 
-                        startPoint.x + horizontalEdgeLength * 2, 
+                CGPathAddLineToPoint(path, NULL,
+                        startPoint.x + horizontalEdgeLength * 2,
                         startPoint.y + verticalEdgeLength * 2);
                 CGContextAddPath(ctx, path);
                 CGContextStrokePath(ctx);
@@ -1023,11 +1023,11 @@ horizontalEdgeLength:(CGFloat)horizontalEdgeLength
             }
 		case FBFontSymbolColon:
 		{
-			
+
 			CGContextAddArc(ctx, startPoint.x+horizontalEdgeLength, startPoint.y+verticalEdgeLength*2/3, 1, 0, 2*PI, 0);
-			CGContextDrawPath(ctx, kCGPathEOFillStroke);//绘制填充
+			CGContextDrawPath(ctx, kCGPathEOFillStroke);
 			CGContextAddArc(ctx, startPoint.x+horizontalEdgeLength, startPoint.y+verticalEdgeLength*4/3, 1, 0, 2*PI, 0);
-			CGContextDrawPath(ctx, kCGPathEOFillStroke);//绘制填充
+			CGContextDrawPath(ctx, kCGPathEOFillStroke);
 			break;
 		}
         default:
